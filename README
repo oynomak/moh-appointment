@@ -1,3 +1,32 @@
 Rwanda Appointment module (OpenMRS)
 
 Appointment Management module that deals with Patient Appointments and Waiting Patients Queue Management
+
+
+
+
+
+
+
+
+
+
+
+***********************
+Something interesting:
+***********************
+
+The following command was used after some errors while pushing the changes for the very first time using 
+this user guide: "http://www.vogella.com/articles/Git/article.html"
+
+  $ git push --all -f -u https://github.com/oynomak/moh-appointment.git
+
+I totally recommend this command for those who will face this:
+
+            $ git push origin master
+            # To https://github.com/user/repo.git
+            #  ! [rejected]        master -> master (non-fast-forward)
+            # error: failed to push some refs to 'https://github.com/user/repo.git'
+            # To prevent you from losing history, non-fast-forward updates were rejected
+            # Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+            # 'Note about fast-forwards' section of 'git push --help' for details.
